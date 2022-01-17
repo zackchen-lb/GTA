@@ -14,10 +14,10 @@ conda activate <name>
 # Install independencies
 pip install -r requirements.txt
 ```
-This repo is built upon **Pytorch** (deep neural networks) and **PytorchGeometrics** (graph learning). For ![PyTorch](https://pytorch.org) and ![PyG](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html) installation, please follow the guide from the websites. Make sure you install the matched the version of Pytorch for PyG.
+This repo is built upon **Pytorch** (deep neural networks) and **PytorchGeometrics** (graph learning). For [PyTorch](https://pytorch.org) and [PyG](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html) installation, please follow the guide from the websites. Make sure you install the matched the version of Pytorch for PyG.
 
 # Transformer benchmark architecture (Informer -> AAAI'21 best paper)
-Our GTA's **Transformer** architecture is built on top of ![**Informer**](https://github.com/zhouhaoyi/Informer2020) who won the best paper award of AAAI'21. One may refer to the link to receive more details.
+Our GTA's **Transformer** architecture is built on top of [**Informer**](https://github.com/zhouhaoyi/Informer2020) who won the best paper award of AAAI'21. One may refer to the link to receive more details.
 
 # Usage
 For training of GTA for deep anomaly detection (dad), please refer to `main_gta_dad.py` for more information.
@@ -36,7 +36,7 @@ python -u main_gta_dad.py --model <model> --data <data>
 --learning_rate <learning_rate> --loss <loss> --lradj <lradj>
 --use_gpu <use_gpu> --gpu <gpu>
 ```
-We would update the repo by providing a version that supports multi-gpus using ![Pytorch Lightning](https://www.pytorchlightning.ai).
+We would update the repo by providing a version that supports multi-gpus using [Pytorch Lightning](https://www.pytorchlightning.ai).
 
 ## Citation
 If you find this repository useful in your research, please consider citing the following paper:
